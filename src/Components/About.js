@@ -10,7 +10,7 @@ const About = () => {
   // console.log("Translation for 'WelcomeAbout':", t("WelcomeAbout"));
 
   return (
-    <div>
+    <div className="bg-purple-200 h-[100vh]">
       <NavBar />
       <h1 className=" mt-[5rem]">
         {t("About")} {t("Page")}
